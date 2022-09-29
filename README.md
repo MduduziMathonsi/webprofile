@@ -1,2 +1,4 @@
-PROJECT: SIMPLE WEBSITE - BUILD YOUR FIRST PERSONAL WEBSITE https://mduduzimathonsi.github.io/myprofile.io/
+PROJECT: SIMPLE WEBSITE - BUILD YOUR FIRST PERSONAL WEBSITE https://mduduzimathonsi.github.io/website.io/
+
+
 
