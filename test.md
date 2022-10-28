@@ -51,3 +51,18 @@ Table responsibility : Stores products details
 | Description  | VARCHAR(300) | product description                                              |
 | BuyPrice     | DECIMAL      | product price                                                    |
 
+
+Table : Orders
+Schema: public
+Table responsibility : Stores order detail
+
+| Column                | Datatype       | Description                                          |
+| --------------------  |----------------|------------------------------------------------------|
+| OrderId               |  INT           | PRIMARY KEY for order table                          |
+| ProductID             |  INT           | FOREIGN KEY REFERENCES ProductID in Product table    |
+| PaymentID             |  INT           | FOREIGN KEY REFERENCES PaymentID in Payment table    |                                                                      
+| FulfilledByEmployeeID |  INT           | FOREIGN KEY REFERENCES EmployeeID in Employees table |                                                                       
+| DateRequired          | DATE           | Order required date                                  |
+| DateShipped           | DATE           | Order shipped date                                   |
+| Status                |VARCHAR(20)     | Order status                                         |
+
