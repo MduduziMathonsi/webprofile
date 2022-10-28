@@ -1,4 +1,3 @@
-| Table : Customers Schema: public Table responsibility : Stores customers details |
 
 | Column     | Datatype        | Description                                                   |
 | ---------------------------- | --------------------------------------------------------------|
