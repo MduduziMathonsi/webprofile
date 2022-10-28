@@ -15,3 +15,15 @@ Table responsibility : Stores customers details
 | City        | VARCHAR(20)    | Customer's city of residence       |
 | Country     | VARCHAR(50)    | Customer's country of residence    |
 
+Table : Employees
+Schema: public
+Table responsibility : Stores Employees details
+
+
+| Column     | Datatype     | Description                         |
+| ----------------------------------------------------------------|
+| EmployeeID |  INT         | PRIMARY KEY for Employees table     |
+| FirstName  | VARCHAR(50)  | Employee first name                 |
+| LastName   | VARCHAR(50)  | Employee last name                  |
+| Email      | VARCHAR(100) | Employee gender Male/Female         |
+| JobTitle   | VARCHAR(20)  | Employee job title                  |
