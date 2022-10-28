@@ -38,3 +38,16 @@ Table responsibility : Stores customers payments details
 | PaymentID   |  INT           | PRIMARY KEY for payments table                          |
 | PaymentDate | DATE           | date of payment                                         |
 | Amount      | DECIMAL        | Amount paid by the customer                             |
+
+
+Table : Products
+Schema: public
+Table responsibility : Stores products details
+
+| Column       | Datatype     | Description                                                      |
+| -------------|--------------|------------------------------------------------------------------|
+| ProductId    |  INT         | PRIMARY KEY for product table                                    |                                                                  
+| ProductName  | VARCHAR(100) | product name                                                     |
+| Description  | VARCHAR(300) | product description                                              |
+| BuyPrice     | DECIMAL      | product price                                                    |
+
