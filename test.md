@@ -21,7 +21,7 @@ Table responsibility : Stores Employees details
 
 
 | Column     | Datatype     | Description                         |
-| ----------------------------------------------------------------|
+| -----------|--------------|-------------------------------------|
 | EmployeeID |  INT         | PRIMARY KEY for Employees table     |
 | FirstName  | VARCHAR(50)  | Employee first name                 |
 | LastName   | VARCHAR(50)  | Employee last name                  |
