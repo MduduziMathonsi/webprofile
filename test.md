@@ -27,3 +27,14 @@ Table responsibility : Stores Employees details
 | LastName   | VARCHAR(50)  | Employee last name                  |
 | Email      | VARCHAR(100) | Employee gender Male/Female         |
 | JobTitle   | VARCHAR(20)  | Employee job title                  |
+
+Table : Payments
+Schema: public
+Table responsibility : Stores customers payments details
+
+| Column      | Datatype       | Description                                             |
+|-----------  |----------------|---------------------------------------------------------|
+| CustomerID  |  INT           | FOREIGN KEY  REFERENCES CustomerID in Customer table    |                                                                             
+| PaymentID   |  INT           | PRIMARY KEY for payments table                          |
+| PaymentDate | DATE           | date of payment                                         |
+| Amount      | DECIMAL        | Amount paid by the customer                             |
