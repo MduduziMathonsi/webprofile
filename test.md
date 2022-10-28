@@ -1,5 +1,8 @@
 
-Table : Customers Schema: public Table responsibility : Stores customers details
+Table : Customers
+Schema: public 
+Table responsibility : Stores customers details
+
 | Column      | Datatype       | Description                        |
 | ----------- | ---------------|------------------------------------|
 | CustomerID  |  INT           | PRIMARY KEY for customers table    |
@@ -12,7 +15,3 @@ Table : Customers Schema: public Table responsibility : Stores customers details
 | City        | VARCHAR(20)    | Customer's city of residence       |
 | Country     | VARCHAR(50)    | Customer's country of residence    |
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
